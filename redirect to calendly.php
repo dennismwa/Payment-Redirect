@@ -1,4 +1,3 @@
-confirm if this snippet code i added is bullet proof working, "
 add_action( 'woocommerce_thankyou', 'traverze_redirect_to_calendly_after_payment', 20 );
 
 function traverze_redirect_to_calendly_after_payment( $order_id ) {
